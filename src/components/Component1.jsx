@@ -36,6 +36,9 @@ const StyledFACECARD01 = styled.p`
     top: 260px;
     position: absolute;
     transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+    width: 100%;
 `;
 
 const StyledWorksby01span = styled.span`
@@ -103,7 +106,7 @@ export const Component1 = () => {
                 src="https://my.spline.design/untitled-MQHUT4KvpfZ4qDVn0iyXOeFE/"
                 frameBorder="0"
             />
-            <StyledFACECARD01><StyledFacecard01span>FIND YOUR GALAXY.</StyledFacecard01span></StyledFACECARD01>
+            <StyledFACECARD01><StyledFacecard01span>FIND YOUR GALAXY!</StyledFacecard01span></StyledFACECARD01>
             <StyledBUTTONHover01>
                 <StyledRectangle301 />
                 <StyledSTART01><StyledStart01span>START</StyledStart01span></StyledSTART01>
